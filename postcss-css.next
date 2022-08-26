@@ -1,0 +1,12 @@
+// eslint-disable-next-line no-undef
+postcss([
+  // eslint-disable-next-line no-undef
+  cssnext({
+    features: {
+      customProperties: {
+        preserve: "true",
+      },
+    },
+  }),
+  // eslint-disable-next-line semi
+]);
